@@ -121,7 +121,7 @@ bool d2_and_gate(const bool& i1_output, const bool& d1_output) {
 * Returns True I4 or D2 gates output is True, or if both outputs are True
 */
 bool d3_or_gate(const bool& i4_output, const bool& d2_output) {
-	return i4_output and d2_output;
+	return i4_output or d2_output;
 }
 
 
