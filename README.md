@@ -31,23 +31,22 @@ As can be seen on the diagram below, our logic circuit consists of 5 inputs, 2 O
 ![flow_chart](https://user-images.githubusercontent.com/23469990/70399984-1ef14900-19f6-11ea-9c9a-55ea6b704727.png)
 
 ### Programming Checklist
+Programming language: C++17 (standard library only)
 
-Programming language: C++
+#### D Flip Flop class:
 
-User Interface: Console UI
+  • Boolean variables: state, input, and clock
+  • Methods to set/get input and clock
+  • Method to set state equal to input if the clock just went from 0 to 1
 
-Test methods using <assert.h> library
+#### Global Functions: 
 
-#### Simulation class:
+  • Functions that represent: 2 OR gates, 2 AND gates, and a NOR gate
+  • Function that accepts initial inputs as parameters (constant array of bed inputs reference, light state reference, constant clock state reference, and a D Flip Flop reference) and runs logic circuit using the methods specified above.
+  • Main function to setup inputs and call the function specified above.
 
-Methods representing OR, AND, NOR gates for boolean operations on beds and light
-
-Other utility methods to output data, trigger/cancel alarm, etc.
-
-Console UI with a menu of action choices (enter room, lay on bed, leave bed).
-
-#### DormRoom class: 
-
-Boolean std::array (beds)
-
-Boolean for light and alarm status
+#### Used Variables:
+  
+  • const std::array<bool, SIZE>& -> (represents beds inputs)
+  • boolean variables representing light and clock state
+  • D Flip Flop instance
