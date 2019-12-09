@@ -1,0 +1,50 @@
+Person enters room. All beds empty.
+Beds status: 0000
+Light status: 1
+Date: Wed Dec  4 23:27:06 2019
+
+Person enters room. All beds empty.
+Beds status: 0000
+Light status: 1
+Date: Wed Dec  4 23:27:08 2019
+
+Person enters room. All beds empty.
+Beds status: 0000
+Light status: 1
+Date: Wed Dec  4 23:27:08 2019
+
+Person enters room. All beds empty.
+Beds status: 0000
+Light status: 1
+Date: Wed Dec  4 23:27:09 2019
+
+Person goes to sleep
+Beds status: 1000
+Light status: 0
+Date: Wed Dec  4 23:27:15 2019
+
+Person goes to sleep
+Beds status: 1100
+Light status: 0
+Date: Wed Dec  4 23:27:17 2019
+
+Person goes to sleep
+Beds status: 1110
+Light status: 0
+Date: Wed Dec  4 23:27:17 2019
+
+Person goes to sleep
+Beds status: 1111
+Light status: 0
+Date: Wed Dec  4 23:27:18 2019
+
+Person enters room. ALERT!!!
+Beds status: 1111
+Light status: 1
+Date: Wed Dec  4 23:27:27 2019
+
+Intruder alert was manually canceled!
+Beds status: 1111
+Light status: 0
+Date: Wed Dec  4 23:27:38 2019
+
