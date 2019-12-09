@@ -18,6 +18,9 @@ The idea behind our project is that it can automatically control lights in the r
 
   •	If everybody is sleeping and somebody steps on mat -> turn light on (intruder alert).
 
+#### Event Flow Chart
+![flow_chart](https://user-images.githubusercontent.com/23469990/70399984-1ef14900-19f6-11ea-9c9a-55ea6b704727.png)
+
 #### Work Breakdown
 We have split the project in three parts which helped us to manage time efficiently and simplify each next step:
 
