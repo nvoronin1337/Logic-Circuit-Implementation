@@ -42,11 +42,15 @@ Programming language: C++17 (standard library only)
 #### Global Functions: 
 
   • Functions that represent: 2 OR gates, 2 AND gates, and a NOR gate
+  
   • Function that accepts initial inputs as parameters (constant array of bed inputs reference, light state reference, constant clock state reference, and a D Flip Flop reference) and runs logic circuit using the methods specified above.
+  
   • Main function to setup inputs and call the function specified above.
 
 #### Used Variables:
   
   • const std::array<bool, SIZE>& -> (represents beds inputs)
+  
   • boolean variables representing light and clock state
+  
   • D Flip Flop instance
