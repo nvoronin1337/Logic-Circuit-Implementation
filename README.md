@@ -24,7 +24,7 @@ We have split the project in three parts which helped us to manage time efficien
 
 As can be seen on the diagram below, our logic circuit consists of 5 inputs, 2 OR gates, 2 AND gates, 1 NOR gate, and a D Flip Flop with a clock connected to it. The output of this circuit represents if the light should be on or off. Gate I4 is the most interesting to us since it controls the intruder alert case, which occurs when all 4 bed inputs are 1 and the light is on.
 
-![cIRC](https://user-images.githubusercontent.com/23469990/70302125-3fd55680-17ca-11ea-83f3-cd436d055d5a.png)
+![cIRC](https://user-images.githubusercontent.com/23469990/70675483-4eeb5700-1c57-11ea-8cf9-5f47d4ff9622.png)
 
 ### Event Flow Chart
 
